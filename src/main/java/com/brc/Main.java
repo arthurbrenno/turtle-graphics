@@ -3,7 +3,7 @@ package com.brc;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-
+//TODO: rename System.out's
 public class Main {
     private static final Scanner scanner = new Scanner(System.in);
     private static final int LINHAS = 20;
