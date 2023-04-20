@@ -12,6 +12,7 @@ public class Main {
     private static Tartaruga tartaruga = new Tartaruga(floor);
     private static boolean active = true;
     private static int option;
+    
     public static void main(String[] args) {
         prepararExecucao();
         executar();
@@ -68,7 +69,7 @@ public class Main {
 
     public static void prepararExecucao() {
         floor.preencher(" ");
-        floor.colocar("T", 0, 0);
+        floor.colocar(tartaruga.getSimbolo(), 0, 0);
     }
 
 }

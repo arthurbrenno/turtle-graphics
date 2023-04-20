@@ -54,4 +54,8 @@ public class Tartaruga {
         return localizacao;
     }
 
+    public String getSimbolo() {
+        return simboloTartaruga;
+    }
+
 }

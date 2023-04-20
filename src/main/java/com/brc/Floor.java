@@ -55,7 +55,7 @@ public class Floor {
             for (int j = 0; j < matriz[i].length; j++) {
                 System.out.printf("%5s", matriz[i][j]);
             }
-            System.out.printf("%5s%n", "|");
+            System.out.printf("%5s%n%n", "|");
         }
     }
 
